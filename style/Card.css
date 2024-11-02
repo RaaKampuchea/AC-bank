@@ -1,0 +1,40 @@
+.container > main > .base-card {
+  width: 100%;
+  padding: var(--padd);
+  padding-top: 30px;
+  background-color: var(--body-color);
+  /* background-color: aqua; */
+}
+.container > main > .base-card > .content-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container > main > .base-card > .content-card > .card {
+  width: 47%;
+  margin: 35px 0;
+  /* height: 300px; */
+  text-align: center;
+  overflow: hidden;
+  border-radius: 7px;
+}
+.container > main > .base-card > .content-card > .card > a {
+  text-decoration: none;
+  color: #a9cbf1;
+  font-size: 14px;
+  font-weight: 550;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+.container > main > .base-card > .content-card > .card > a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.container > main > .base-card > .content-card > .card > img {
+  width: 100%;
+  margin-bottom: 8px;
+  border-radius: 7px;
+  cursor: pointer;
+}
